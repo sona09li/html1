@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="digital.css">
 </head>
 <body>
-    <h1>DIGITAL CLOCK</h1>
-    <input type="text" id="clock" readonly>
+    <div class="clock-container">
+        <h1>DIGITAL CLOCK</h1>
+        <input type="text" id="clock" readonly>
+        <div id="clock"></div>
+    </div>
     <script>
         function updateClock() {
             const now = new Date();
