@@ -1,0 +1,11 @@
+let a = 10;
+let b = 3;
+console.log(a+b);
+console.log(a-b);   
+console.log(a*b);
+console.log(a/b);
+console.log(10 >= 10);
+console.log(5 <= 3);
+console.log(5 == 5);
+console.log(5 != 3);
+console.log(5 === 5);
